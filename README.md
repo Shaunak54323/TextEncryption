@@ -1,5 +1,3 @@
-# Test Encryption Techniques
-
 # Playfair Cipher:
 The Playfair cipher uses a 5×5 grid of letters, and encrypts a message by breaking the text into pairs of letters and swapping them according to their positions. The cipher is then encoded by replacing each letter with the letter in the same row or column that is not in the same row or column as the original letter. The cipher is then encoded by replacing each letter with the letter in the same row or column that is not in the same row or column as the original letter.
 
