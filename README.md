@@ -1,7 +1,7 @@
 # Playfair Cipher:
 The Playfair cipher uses a 5×5 grid of letters, and encrypts a message by breaking the text into pairs of letters and swapping them according to their positions. The cipher is then encoded by replacing each letter with the letter in the same row or column that is not in the same row or column as the original letter. The cipher is then encoded by replacing each letter with the letter in the same row or column that is not in the same row or column as the original letter.
 
-# Hill Cipher: {Working on it}
+# Hill Cipher:
 The Hill cipher is a form of transposition cipher, in which the letters of a message are replaced by numbers, and the numbers are multiplied by a key matrix. The result is then summed modulo 26. The key matrix is a square matrix of size n, and the message is a matrix of size n×m. The ciphertext is then a matrix of size n×m. The key matrix is a square matrix of size n, and the message is a matrix of size n×m. The ciphertext is then a matrix of size n×m.
 
 # Vigenère Cipher: {Working on it}
