@@ -7,8 +7,8 @@ The Hill cipher is a form of transposition cipher, in which the letters of a mes
 # Vigenère Cipher:
 Vigenère cipher is a form of polyalphabetic substitution cipher, in which each letter in the plaintext is replaced by a letter in a different position in a keyword. The keyword is then used to encrypt the plaintext. The keyword is a string of letters, and the plaintext is a string of letters. The ciphertext is then a string of letters. The keyword is a string of letters, and the plaintext is a string of letters. The ciphertext is then a string of letters.
 
-# Vernam Cipher: {Working on it}
+# Vernam Cipher: 
 Very similar to the Vigenère cipher, except that the keyword is a random sequence of bits. The plaintext is a string of bits, and the ciphertext is a string of bits. The keyword is a string of bits, and the plaintext is a string of bits. The ciphertext is then a string of bits. The keyword is a string of bits, and the plaintext is a string of bits. The ciphertext is then a string of bits. The keyword is a string of bits, and the plaintext is a string of bits. The ciphertext is then a string of bits.
 
-# Single Letter Frequency Attack: {Working on it}
+# Single Letter Frequency Attack:
 In cryptography, a single-letter frequency attack is a type of cryptanalysis technique that uses statistical analysis to break a ciphertext that has been encrypted with a single-character key. The ciphertext is a string of letters, and the key is a single letter. The ciphertext is then a string of letters. The key is a single letter. The ciphertext is then a string of letters. The key is a single letter. The ciphertext is then a string of letters. 
