@@ -6,6 +6,8 @@ def generateKey(message, key):
         for i in range(len(message) - len(key)):
             key.append(key[i % len(key)])
     return "".join(key)
+
+
 def cipherMessage(message, key):
     cipher_text = []
     for i in range(len(message)):
@@ -13,6 +15,8 @@ def cipherMessage(message, key):
         x += ord('A')
         cipher_text.append(chr(x))
     return "".join(cipher_text)
+
+
 def originalMessage(cipherMessage, key):
     origMessage = []
     for i in range(len(cipherMessage)):
@@ -20,9 +24,12 @@ def originalMessage(cipherMessage, key):
         x += ord('A')
         origMessage.append(chr(x))
     return "".join(origMessage)
+
+
 choice = 0
 while choice != 3:
-    choice =int(input("[1] Encryption\n[2] Decryption\n[3] Exit\nEnter your choice:"))
+    choice = int(
+        input("[1] Encryption\n[2] Decryption\n[3] Exit\nEnter your choice:"))
     if choice == 1:
         message = input("Enter message:").upper()
         key = generateKey(message, input("Enter key: ").upper())
